@@ -3,7 +3,7 @@
  * By John Resig http://ejohn.org/
  * MIT Licensed.
  * Inspired by base2 and Prototype
- * Improved by point.of.presence
+ * Improved by point.of.presence https://github.com/pointofpresence/js-inherit
  * Requires Underscore JS http://underscorejs.org/
  * Version 0.1
  */

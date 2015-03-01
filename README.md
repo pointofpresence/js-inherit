@@ -68,7 +68,7 @@ If you wanted to call a super-classes’ constructor you could do that with this
 
     Person.extend("Ninja", {
         init: function(){
-            this._super( false );
+            this._super(false);
         }
     });
 

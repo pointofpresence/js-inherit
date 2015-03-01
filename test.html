@@ -3,7 +3,10 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>js-inherit test</title>
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js"></script>
+
+    <!-- https://github.com/pointofpresence/js-inherit -->
     <script src="jsinherit.js"></script>
 </head>
 <body>
@@ -70,7 +73,7 @@
 
     Person.extend("Ninja", {
         init: function(){
-            this._super( false );
+            this._super(false);
         }
     });
 
