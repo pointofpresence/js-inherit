@@ -4,7 +4,7 @@
  * MIT Licensed.
  * Inspired by base2 and Prototype
  * Improved by point.of.presence
- * Requires Underscore JS
+ * Requires Underscore JS http://underscorejs.org/
  * Version 0.1
  */
 (function () {
