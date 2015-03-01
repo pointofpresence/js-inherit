@@ -5,7 +5,7 @@ Classes can be created by calling `Class.extend(name,{ .. })`. The main things *
 
 By convention, classes should be capitalized, so if you wanted to create a new class, you'd write:
 
-    Q.Class.extend("MyClass",{ ... });
+    Class.extend("MyClass",{ ... });
     
 
 # Using js-inherit
