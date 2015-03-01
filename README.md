@@ -91,6 +91,20 @@ var n = new Ninja();
 console.log(n.dancing); // false
 ```
 
+## Methods
+
+`extend (className, properties, [classMethods])`
+Create a new Class that inherits from this class
+*Parameters:*
+* `className` String
+* `properties` Object - *hash of properties (`init()` will be the constructor)*
+* `[classMethods]` Object, optional - *optional class methods to add to the class*
+
+`isA (className)`
+See if a object is a specific class
+*Parameters:*
+* `className` String - *class to check against*
+
 
 # Requirements
 
