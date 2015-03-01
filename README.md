@@ -1,7 +1,8 @@
 # js-inherit
-Simple JavaScript Inheritance by John Resig with our improves
+Simple JavaScript Inheritance by John Resig with our improvements
 
 # Using js-inherit
+Basic usage:
 
     Class.extend("Animal", {
         init: function (name) {
@@ -56,6 +57,8 @@ Simple JavaScript Inheritance by John Resig with our improves
     console.log(io.isA("Animal"));                  // false
     console.log(noname.isA("Noname"));              // false
     console.log(noname.isA("Animal"));              // true
+
+If you wanted to call a super-classes’ constructor you could do that with this technique:
 
     Class.extend("Person", {
         init: function(isDancing){
