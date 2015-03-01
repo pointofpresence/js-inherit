@@ -106,7 +106,7 @@
         }
 
         if (className) {
-            /* Save the class onto Q */
+            /* Save the class onto global space */
             window[className] = Class;
 
             /* Let the class know its name */
