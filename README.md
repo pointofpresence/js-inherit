@@ -1,5 +1,12 @@
 # js-inherit
-Simple JavaScript Inheritance by John Resig with our improvements
+Simple JavaScript Inheritance by John Resig with our improvements.
+
+Classes can be created by calling `Class.extend(name,{ .. })`. The main things **js-inherit** get you are easy inheritance, a constructor method called `init()`, dynamic addition of a `this._super` method when a method is overloaded (be careful with this as it adds some overhead to method calls.) Calls to `instanceof` also all work as you'd hope.
+
+By convention, classes should be capitalized, so if you wanted to create a new class, you'd write:
+
+    Q.Class.extend("MyClass",{ ... });
+    
 
 # Using js-inherit
 Basic usage:
