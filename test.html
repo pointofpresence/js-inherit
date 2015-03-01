@@ -1,8 +1,13 @@
-# js-inherit
-Simple JavaScript Inheritance by John Resig with our improves
-
-# Using js-inherit
-
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>js-inherit test</title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js"></script>
+    <script src="jsinherit.js"></script>
+</head>
+<body>
+<script>
     Class.extend("Animal", {
         init: function (name) {
             this.name = name;
@@ -56,4 +61,6 @@ Simple JavaScript Inheritance by John Resig with our improves
     console.log(io.isA("Animal"));                  // false
     console.log(noname.isA("Noname"));              // false
     console.log(noname.isA("Animal"));              // true
-    
+</script>
+</body>
+</html>
